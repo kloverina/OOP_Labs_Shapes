@@ -1,0 +1,6 @@
+C:\Users\Кристина\RiderProjects\OOP_labs\OOP_Labs\bin\Debug\OOP_Labs.exe
+C:\Users\Кристина\RiderProjects\OOP_labs\OOP_Labs\bin\Debug\OOP_Labs.pdb
+C:\Users\Кристина\RiderProjects\OOP_labs\OOP_Labs\obj\Debug\OOP_Labs.csprojAssemblyReference.cache
+C:\Users\Кристина\RiderProjects\OOP_labs\OOP_Labs\obj\Debug\OOP_Labs.csproj.CoreCompileInputs.cache
+C:\Users\Кристина\RiderProjects\OOP_labs\OOP_Labs\obj\Debug\OOP_Labs.exe
+C:\Users\Кристина\RiderProjects\OOP_labs\OOP_Labs\obj\Debug\OOP_Labs.pdb
