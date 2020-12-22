@@ -10,7 +10,7 @@
 
 # Log file
 *.log
-**/bin
+
 
 # Sensitive or high-churn files
 .idea/**/dataSources/
@@ -26,7 +26,12 @@
 **/.idea/**/*.iml
 **/.idea/**/contentModel.xml
 **/.idea/**/modules.xml
-
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
 
 # Package Files #
 *.jar
