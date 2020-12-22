@@ -7,8 +7,14 @@
       <e p="OOP_labs" t="IncludeRecursive">
         <e p=".gitignore" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="JsonParser" t="Include">
+          <e p="check.json" t="Include" />
+          <e p="figures.json" t="Include" />
+          <e p="JsonParser.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="OOP_labs.csproj" t="IncludeRecursive" />
+        <e p="packages.config" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />

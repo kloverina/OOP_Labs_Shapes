@@ -1,4 +1,7 @@
 using System;
+using System.Collections.Generic;
+using System.Numerics;
+using Newtonsoft.Json;
 
 namespace OOP_labs.Shapes
 {
@@ -8,7 +11,9 @@ namespace OOP_labs.Shapes
     /// /// Constructor creates a rectangle from 2 different sides: width and height
     public class Rectangle: IShape
     {
+        [JsonProperty]
         private readonly double A;
+        [JsonPropertyAttribute]
         private readonly double B;
 
         public Rectangle(double width, double height)
@@ -19,12 +24,24 @@ namespace OOP_labs.Shapes
             B = height;
         }
 
+        public Rectangle(List<double> values)
+        {
+            this.A = values[0];
+            this.B = values[1];
+        }
+        
         public double CalcArea() {
             return A * B;
         }
 
         public double CalcPerimeter() {
             return (A + B) * 2;
+        }
+        
+
+        public List<double> ToJson()
+        {
+            return new List<double>{A, B};
         }
 
         public override bool Equals(object other)

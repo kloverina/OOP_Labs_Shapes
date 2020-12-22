@@ -7,24 +7,70 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8f50a82-6b98-40c4-b2f5-f47c4084ebe0" name="Default Changelist" comment="" />
+    <list default="true" id="f8f50a82-6b98-40c4-b2f5-f47c4084ebe0" name="Default Changelist" comment="Added Shapes package">
+      <change afterPath="$PROJECT_DIR$/OOP_Labs/JsonParser/JsonConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_Labs/JsonParser/JsonParser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_Labs/JsonParser/figures.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP_labs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP_labs/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP_labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP_labs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/OOP_Labs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/OOP_Labs.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/Shapes/Circle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/Shapes/Circle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/Shapes/IShape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/Shapes/IShape.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/Shapes/Rectangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/Shapes/Rectangle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/Shapes/Square.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/Shapes/Square.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/Shapes/Triangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/Shapes/Triangle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/bin/Debug/OOP_Labs.exe" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/bin/Debug/OOP_Labs.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/bin/Debug/OOP_Labs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/bin/Debug/OOP_Labs.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/obj/Debug/OOP_Labs.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/obj/Debug/OOP_Labs.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/obj/Debug/OOP_Labs.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/obj/Debug/OOP_Labs.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/obj/Debug/OOP_Labs.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/obj/Debug/OOP_Labs.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/obj/Debug/OOP_Labs.exe" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/obj/Debug/OOP_Labs.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Labs/obj/Debug/OOP_Labs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Labs/obj/Debug/OOP_Labs.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/OOP_Labs/Shapes/Rectangle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OOP_Labs/Shapes/IShape.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D6D3AC03-BF86-4882-89C2-EBF3A45CE0A1/c3/2c9adec5/__Error.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://D:/Documents/Dialogue-System-master/Dialogue System/Assets/DialogueManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Interface/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Interface/Properties/Resources.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Interface/Properties/AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/74DA7839-69EF-4B53-BCDD-CBB5F10FC069/C/ThrowHelper.Serialization.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://D:/Documents/Spin Offf/СПИН ОФФ ПРО АНДРЮ/Assets/Scripts/Dialog system/DialogueManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2676A2DA-6EDC-420E-890E-D28AA4572EE5/83/JToken.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2676A2DA-6EDC-420E-890E-D28AA4572EE5/1A/JsonWriter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2676A2DA-6EDC-420E-890E-D28AA4572EE5/7A/JObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2676A2DA-6EDC-420E-890E-D28AA4572EE5/72/Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2676A2DA-6EDC-420E-890E-D28AA4572EE5/5/JsonConvert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/74DA7839-69EF-4B53-BCDD-CBB5F10FC069/21/Utf8JsonReader.TryGet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D6D3AC03-BF86-4882-89C2-EBF3A45CE0A1/2f/b7a43e5f/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OOP_Labs/Shapes/IShape.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OOP_Labs/package.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2676A2DA-6EDC-420E-890E-D28AA4572EE5/57/JsonSerializerInternalReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D6D3AC03-BF86-4882-89C2-EBF3A45CE0A1/04/1d4e4ff1/RuntimeAssembly.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D6D3AC03-BF86-4882-89C2-EBF3A45CE0A1/a8/df5ae46b/Activator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OOP_Labs/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OOP_Labs/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -40,16 +86,22 @@
         <option value="$PROJECT_DIR$/OOP_labs/main.cs" />
         <option value="$PROJECT_DIR$/OOP/Program.cs" />
         <option value="$PROJECT_DIR$/OOP_labs/Program.cs" />
-        <option value="$PROJECT_DIR$/OOP_Labs/Shapes/Square.cs" />
         <option value="$PROJECT_DIR$/Interface/Form1.cs" />
         <option value="$PROJECT_DIR$/Interface/Program.cs" />
         <option value="$PROJECT_DIR$/Interface/Properties/AssemblyInfo.cs" />
-        <option value="$PROJECT_DIR$/OOP_Labs/Program.cs" />
-        <option value="$PROJECT_DIR$/OOP_Labs/Shapes/Circle.cs" />
+        <option value="$PROJECT_DIR$/OOP_Labs/.gitignore" />
+        <option value="$PROJECT_DIR$/OOP_Labs/package.json" />
+        <option value="$PROJECT_DIR$/OOP_Labs/JsonParser.cs" />
+        <option value="$PROJECT_DIR$/OOP_Labs/JsonParser/check.json" />
         <option value="$PROJECT_DIR$/OOP_Labs/Shapes/IShape.cs" />
+        <option value="$PROJECT_DIR$/OOP_Labs/JsonParser/JsonConverter.cs" />
+        <option value="$PROJECT_DIR$/OOP_Labs/Shapes/Circle.cs" />
+        <option value="$PROJECT_DIR$/OOP_Labs/Shapes/Square.cs" />
         <option value="$PROJECT_DIR$/OOP_Labs/Shapes/Triangle.cs" />
         <option value="$PROJECT_DIR$/OOP_Labs/Shapes/Rectangle.cs" />
-        <option value="$PROJECT_DIR$/OOP_Labs/.gitignore" />
+        <option value="$PROJECT_DIR$/OOP_Labs/Program.cs" />
+        <option value="$PROJECT_DIR$/OOP_Labs/JsonParser/figures.json" />
+        <option value="$PROJECT_DIR$/OOP_Labs/JsonParser/JsonParser.cs" />
       </list>
     </option>
   </component>
@@ -69,10 +121,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.OOP">
+  <component name="RunManager" selected=".NET Project.OOP_labs">
     <configuration name="OOP" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -118,107 +170,129 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added Shapes package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Shapes package" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607017626634">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1607017626634" />
-    <state width="637" height="207" key="GridCell.Tab.0.bottom" timestamp="1607029676307">
+    <state width="1323" height="240" key="GridCell.Tab.0.bottom" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="637" height="207" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607029676307" />
-    <state width="637" height="207" key="GridCell.Tab.0.center" timestamp="1607029676307">
+    <state width="1323" height="240" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.0.center" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="637" height="207" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607029676307" />
-    <state width="637" height="207" key="GridCell.Tab.0.left" timestamp="1607029676307">
+    <state width="1323" height="240" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.0.left" timestamp="1608666201768">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="637" height="207" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607029676307" />
-    <state width="637" height="207" key="GridCell.Tab.0.right" timestamp="1607029676307">
+    <state width="1323" height="240" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1608666201768" />
+    <state width="1323" height="240" key="GridCell.Tab.0.right" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="637" height="207" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607029676307" />
-    <state width="1323" height="246" key="GridCell.Tab.1.bottom" timestamp="1607017703045">
+    <state width="1323" height="240" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.1.bottom" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607017703045" />
-    <state width="1323" height="246" key="GridCell.Tab.1.center" timestamp="1607017703045">
+    <state width="1323" height="240" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.1.center" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1607017703045" />
-    <state width="1323" height="246" key="GridCell.Tab.1.left" timestamp="1607017703045">
+    <state width="1323" height="240" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.1.left" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1607017703045" />
-    <state width="1323" height="246" key="GridCell.Tab.1.right" timestamp="1607017703045">
+    <state width="1323" height="240" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.1.right" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1607017703045" />
-    <state width="1323" height="246" key="GridCell.Tab.2.bottom" timestamp="1607017703047">
+    <state width="1323" height="240" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.2.bottom" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607017703047" />
-    <state width="1323" height="246" key="GridCell.Tab.2.center" timestamp="1607017703045">
+    <state width="1323" height="240" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.2.center" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1607017703045" />
-    <state width="1323" height="246" key="GridCell.Tab.2.left" timestamp="1607017703045">
+    <state width="1323" height="240" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.2.left" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1607017703045" />
-    <state width="1323" height="246" key="GridCell.Tab.2.right" timestamp="1607017703045">
+    <state width="1323" height="240" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.2.right" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1607017703045" />
-    <state width="1323" height="246" key="GridCell.Tab.3.bottom" timestamp="1607017703047">
+    <state width="1323" height="240" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.3.bottom" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.3.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607017703047" />
-    <state width="1323" height="246" key="GridCell.Tab.3.center" timestamp="1607017703047">
+    <state width="1323" height="240" key="GridCell.Tab.3.bottom/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.3.center" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.3.center/0.0.1366.768@0.0.1366.768" timestamp="1607017703047" />
-    <state width="1323" height="246" key="GridCell.Tab.3.left" timestamp="1607017703047">
+    <state width="1323" height="240" key="GridCell.Tab.3.center/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.3.left" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.3.left/0.0.1366.768@0.0.1366.768" timestamp="1607017703047" />
-    <state width="1323" height="246" key="GridCell.Tab.3.right" timestamp="1607017703047">
+    <state width="1323" height="240" key="GridCell.Tab.3.left/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.3.right" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.3.right/0.0.1366.768@0.0.1366.768" timestamp="1607017703047" />
-    <state width="1323" height="246" key="GridCell.Tab.4.bottom" timestamp="1607017703047">
+    <state width="1323" height="240" key="GridCell.Tab.3.right/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.4.bottom" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.4.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607017703047" />
-    <state width="1323" height="246" key="GridCell.Tab.4.center" timestamp="1607017703047">
+    <state width="1323" height="240" key="GridCell.Tab.4.bottom/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.4.center" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.4.center/0.0.1366.768@0.0.1366.768" timestamp="1607017703047" />
-    <state width="1323" height="246" key="GridCell.Tab.4.left" timestamp="1607017703047">
+    <state width="1323" height="240" key="GridCell.Tab.4.center/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.4.left" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.4.left/0.0.1366.768@0.0.1366.768" timestamp="1607017703047" />
-    <state width="1323" height="246" key="GridCell.Tab.4.right" timestamp="1607017703047">
+    <state width="1323" height="240" key="GridCell.Tab.4.left/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
+    <state width="1323" height="240" key="GridCell.Tab.4.right" timestamp="1608666201769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.4.right/0.0.1366.768@0.0.1366.768" timestamp="1607017703047" />
+    <state width="1323" height="240" key="GridCell.Tab.4.right/0.0.1366.768@0.0.1366.768" timestamp="1608666201769" />
     <state x="275" y="115" key="Rider.ProjectTemplateDialog.Size" timestamp="1607016661284">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="115" key="Rider.ProjectTemplateDialog.Size/0.0.1366.768@0.0.1366.768" timestamp="1607016661284" />
-    <state x="176" y="88" key="RiderGenerateDialog" timestamp="1607030099835">
+    <state x="176" y="88" key="RiderGenerateDialog" timestamp="1608484885768">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="176" y="88" key="RiderGenerateDialog/0.0.1366.768@0.0.1366.768" timestamp="1607030099835" />
-    <state x="184" y="28" key="SettingsEditor" timestamp="1607016338559">
+    <state x="176" y="88" key="RiderGenerateDialog/0.0.1366.768@0.0.1366.768" timestamp="1608484885768" />
+    <state x="184" y="28" key="SettingsEditor" timestamp="1608407981746">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1607016338559" />
+    <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1608407981746" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1608484801707">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1608484801707" />
+    <state x="110" y="120" width="1146" height="528" key="VCS.FileHistoryDialog" timestamp="1607201953188">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="110" y="120" width="1146" height="528" key="VCS.FileHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1607201953188" />
   </component>
 </project>

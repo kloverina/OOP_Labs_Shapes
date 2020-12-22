@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace OOP_labs.Shapes
 {
@@ -10,9 +12,12 @@ namespace OOP_labs.Shapes
     /// </exception>
     public class Triangle:IShape
     {
-        private readonly double A;
-        private readonly double B;
-        private readonly double C;
+        [JsonProperty]
+        private double A;
+        [JsonProperty]
+        private double B;
+        [JsonProperty]
+        private double C;
 
         public Triangle(double sideA, double sideB, double sideC)
         {
@@ -24,6 +29,16 @@ namespace OOP_labs.Shapes
             B = sideB;
             C = sideC;
         }
+
+        public Triangle(List<double> values)
+        {
+            this.A = values[0];
+            this.B = values[1];
+            this.C = values[2];
+            if( A+ B < C || A + C < B || B + C < A)
+                throw new ArithmeticException("Triangle with given sides cannot exists!");
+            
+        }
         public double CalcArea()
         {
             var p = CalcPerimeter() / 2.0;
@@ -34,6 +49,13 @@ namespace OOP_labs.Shapes
         {
             return A + B + C;
         }
+
+        
+        public List<double> ToJson()
+        {
+            return new List<double> {A, B, C};
+        }
+
 
         public override string ToString()
         {
