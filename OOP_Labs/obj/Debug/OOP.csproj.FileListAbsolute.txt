@@ -1,6 +1,0 @@
-C:\Users\Кристина\RiderProjects\OOP_labs\OOP\bin\Debug\OOP.exe
-C:\Users\Кристина\RiderProjects\OOP_labs\OOP\bin\Debug\OOP.pdb
-C:\Users\Кристина\RiderProjects\OOP_labs\OOP\obj\Debug\OOP.csprojAssemblyReference.cache
-C:\Users\Кристина\RiderProjects\OOP_labs\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
-C:\Users\Кристина\RiderProjects\OOP_labs\OOP\obj\Debug\OOP.exe
-C:\Users\Кристина\RiderProjects\OOP_labs\OOP\obj\Debug\OOP.pdb
