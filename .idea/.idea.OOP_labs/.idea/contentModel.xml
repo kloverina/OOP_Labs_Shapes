@@ -35,6 +35,7 @@
         <e p="AddSquare.resx" t="Include" />
         <e p="AddTriangle.cs" t="Include" />
         <e p="AddTriangle.Designer.cs" t="Include" />
+        <e p="AddTriangle.resx" t="Include" />
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="FormOpenFile.cs" t="Include" />

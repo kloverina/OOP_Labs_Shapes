@@ -36,14 +36,28 @@ namespace OOP.JsonParser
             if (Directory.Exists(folderPath))
             {
                 file = Path.Combine(folderPath, fileName+ Extension);
-                if(! File.Exists(file) || rewrite)
+                if(! File.Exists(file))
                     File.Create(file);
             }
             else
                 throw new FileNotFoundException("Directory does not exists!");
 
-            var json = new JObject();
+            SerializeFigures(shapes, file);
+        }
+
+        public static void Serialize(List<IShape> shapes, string fileName, bool rewrite)
+        {
+            string  file = fileName;
+             
+            if(! File.Exists(file)) 
+                File.Create(file);
             
+            SerializeFigures(shapes, file);
+        }
+
+        private static void SerializeFigures(List<IShape> shapes, string file)
+        {
+            var json = new JObject();
             //writes the type of shape and array with its values as one JsonElement
             foreach (var shape in shapes)
             {
@@ -60,7 +74,7 @@ namespace OOP.JsonParser
             {
                 throw new FileLoadException("Cannot open the file for writing.");
             }
-
+            
         }
 
         /// <summary>

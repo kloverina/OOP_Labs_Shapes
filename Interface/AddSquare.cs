@@ -14,7 +14,17 @@ namespace Interface
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            side = Convert.ToDouble(textBox1.Text);
+            try
+            {
+                side = Convert.ToDouble(textBox1.Text);
+            }
+            catch (Exception)
+            {
+                textBox1.Clear();
+                MessageBox.Show("Неверный формат данных. Формат данных для этого поля: double.", "Ошибка",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+               
+            }
         }
 
         private void button_submit_Click(object sender, EventArgs e)

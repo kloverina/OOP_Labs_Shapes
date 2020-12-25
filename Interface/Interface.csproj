@@ -94,6 +94,9 @@
         <EmbeddedResource Include="AddSquare.resx">
           <DependentUpon>AddSquare.cs</DependentUpon>
         </EmbeddedResource>
+        <EmbeddedResource Include="AddTriangle.resx">
+          <DependentUpon>AddTriangle.cs</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Include="FormOpenFile.resx">
           <DependentUpon>FormOpenFile.cs</DependentUpon>
         </EmbeddedResource>

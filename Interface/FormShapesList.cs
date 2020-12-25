@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using OOP.JsonParser;
 using OOP_labs.Shapes;
 
 namespace Interface
@@ -72,5 +73,27 @@ namespace Interface
             AddTriangle.Tag = this;
             AddTriangle.Show();
         }
+
+        private void button_SaveFile_Click(object sender, EventArgs e)
+        {
+            
+            saveFileDialog1.Filter = "Json-files (*.json)| *.json";
+                 
+            if (saveFileDialog1.ShowDialog() == DialogResult.Cancel)
+                return;
+            
+            FiguresList.Clear();
+            foreach (var t in listBox1.Items)
+            {
+                FiguresList.Add((IShape) t);
+            }
+
+            string fileName = saveFileDialog1.FileName.Replace(@"\", @"/");
+          
+            JsonParser.Serialize(FiguresList, fileName, true);
+            Close();
+        }
+
+       
     }
 }

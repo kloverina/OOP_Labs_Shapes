@@ -45,6 +45,7 @@ namespace Interface
             this.button_AddCircle = new System.Windows.Forms.Button();
             this.button_AddSquare = new System.Windows.Forms.Button();
             this.button_SaveFile = new System.Windows.Forms.Button();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -134,7 +135,6 @@ namespace Interface
             this.Button_AddRect.TabIndex = 4;
             this.Button_AddRect.Text = "Добавить прямоугольник";
             this.Button_AddRect.UseVisualStyleBackColor = false;
-            this.Button_AddRect.UseWaitCursor = true;
             this.Button_AddRect.Click += new System.EventHandler(this.Button_AddRect_Click);
             // 
             // groupBox2
@@ -153,7 +153,6 @@ namespace Interface
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Добавление фигуры";
-            this.groupBox2.UseWaitCursor = true;
             // 
             // Button_AddTri
             // 
@@ -165,7 +164,6 @@ namespace Interface
             this.Button_AddTri.TabIndex = 7;
             this.Button_AddTri.Text = "Добавить треугольник";
             this.Button_AddTri.UseVisualStyleBackColor = false;
-            this.Button_AddTri.UseWaitCursor = true;
             this.Button_AddTri.Click += new System.EventHandler(this.Button_AddTri_Click);
             // 
             // button_AddCircle
@@ -178,7 +176,6 @@ namespace Interface
             this.button_AddCircle.TabIndex = 6;
             this.button_AddCircle.Text = "Добавить круг";
             this.button_AddCircle.UseVisualStyleBackColor = false;
-            this.button_AddCircle.UseWaitCursor = true;
             this.button_AddCircle.Click += new System.EventHandler(this.button_AddCircle_Click);
             // 
             // button_AddSquare
@@ -191,7 +188,6 @@ namespace Interface
             this.button_AddSquare.TabIndex = 5;
             this.button_AddSquare.Text = "Добавить квадрат";
             this.button_AddSquare.UseVisualStyleBackColor = false;
-            this.button_AddSquare.UseWaitCursor = true;
             this.button_AddSquare.Click += new System.EventHandler(this.button_AddSquare_Click);
             // 
             // button_SaveFile
@@ -205,6 +201,7 @@ namespace Interface
             this.button_SaveFile.TabIndex = 4;
             this.button_SaveFile.Text = "Сохранить";
             this.button_SaveFile.UseVisualStyleBackColor = false;
+            this.button_SaveFile.Click += new System.EventHandler(this.button_SaveFile_Click);
             // 
             // FormShapesList
             // 
@@ -224,6 +221,8 @@ namespace Interface
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
 
         private System.Windows.Forms.Button button_AddCircle;
         private System.Windows.Forms.Button Button_AddRect;

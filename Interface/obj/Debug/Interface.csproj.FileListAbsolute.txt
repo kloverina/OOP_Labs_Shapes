@@ -16,3 +16,6 @@ C:\Users\Кристина\RiderProjects\OOP_labs\Interface\obj\Debug\Interface.F
 C:\Users\Кристина\RiderProjects\OOP_labs\Interface\obj\Debug\Interface.FormShapesList.resources
 C:\Users\Кристина\RiderProjects\OOP_labs\Interface\obj\Debug\Interface.csproj.CopyComplete
 C:\Users\Кристина\RiderProjects\OOP_labs\Interface\obj\Debug\Interface.AddRectangle.resources
+C:\Users\Кристина\RiderProjects\OOP_labs\Interface\obj\Debug\Interface.AddCircle.resources
+C:\Users\Кристина\RiderProjects\OOP_labs\Interface\obj\Debug\Interface.AddSquare.resources
+C:\Users\Кристина\RiderProjects\OOP_labs\Interface\obj\Debug\Interface.AddTriangle.resources

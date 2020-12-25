@@ -21,16 +21,27 @@ namespace Interface
 
         private void textBox_Height_TextChanged(object sender, EventArgs e)
         {
-            height = Convert.ToDouble(textBox_Height.Text);
+         
         }
 
         private void textBox_Width_TextChanged(object sender, EventArgs e)
         {
-            width = Convert.ToDouble(textBox_Width.Text);
+           
         }
         
         private void button_Submit_Click(object sender, EventArgs e)
         {
+            try
+            {
+                width = Convert.ToDouble(textBox_Width.Text);
+                height = Convert.ToDouble(textBox_Height.Text);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Неверный формат данных. Формат данных для этого поля: double.", "Ошибка",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+               
+            }
             try
             {
                 var rectangle = new Rectangle(width, height);

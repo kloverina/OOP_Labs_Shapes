@@ -49,13 +49,8 @@ namespace Interface
             {
                 
                 //здесь открываем второе окно формы со списком фигур
-                var fileName = openFileDialog1.FileName;
-                //костыль(((
-                //var folderPath = openFileDialog1.InitialDirectory;
-                var folderPath = "C:/Users/Кристина/RiderProjects/OOP_labs/Figures/JsonParser/figures.json";
-            
-                ListOfFigures = JsonParser.Deserialize(folderPath);
-                    //MessageBox.Show(fileName, $"Ошибка {folderPath}", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                var fileName = openFileDialog1.FileName.Replace(@"\", @"/");
+                ListOfFigures = JsonParser.Deserialize(fileName);
                 Hide();
                 FiguresForm = new FormShapesList(ListOfFigures);
                 FiguresForm.ShowDialog();

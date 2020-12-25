@@ -34,20 +34,22 @@ namespace Interface
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_submit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(71, 48);
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
+            this.label1.Location = new System.Drawing.Point(81, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 23);
+            this.label1.Size = new System.Drawing.Size(292, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Добавление нового круга:";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(150, 119);
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
+            this.label2.Location = new System.Drawing.Point(103, 93);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 23);
             this.label2.TabIndex = 1;
@@ -55,26 +57,33 @@ namespace Interface
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(227, 116);
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
+            this.textBox1.Location = new System.Drawing.Point(219, 90);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(100, 33);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // button1
+            // button_submit
             // 
-            this.button1.Location = new System.Drawing.Point(174, 182);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Подтвердить";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_submit.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (255)))), ((int) (((byte) (192)))), ((int) (((byte) (128)))));
+            this.button_submit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_submit.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
+            this.button_submit.Location = new System.Drawing.Point(145, 167);
+            this.button_submit.Name = "button_submit";
+            this.button_submit.Size = new System.Drawing.Size(145, 37);
+            this.button_submit.TabIndex = 3;
+            this.button_submit.Text = "Подтвердить";
+            this.button_submit.UseVisualStyleBackColor = false;
+            this.button_submit.Click += new System.EventHandler(this.button_submit_Click);
             // 
             // AddCircle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(451, 231);
-            this.Controls.Add(this.button1);
+            this.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.ClientSize = new System.Drawing.Size(433, 231);
+            this.Controls.Add(this.button_submit);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -84,7 +93,8 @@ namespace Interface
             this.PerformLayout();
         }
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_submit;
+
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
