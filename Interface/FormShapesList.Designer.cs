@@ -80,6 +80,7 @@ namespace Interface
             this.Button_Up.TabIndex = 1;
             this.Button_Up.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Button_Up.UseVisualStyleBackColor = false;
+            this.Button_Up.Click += new System.EventHandler(this.Button_Up_Click);
             // 
             // Button_Down
             // 
@@ -92,6 +93,7 @@ namespace Interface
             this.Button_Down.Size = new System.Drawing.Size(149, 44);
             this.Button_Down.TabIndex = 2;
             this.Button_Down.UseVisualStyleBackColor = false;
+            this.Button_Down.Click += new System.EventHandler(this.Button_Down_Click);
             // 
             // groupBox1
             // 

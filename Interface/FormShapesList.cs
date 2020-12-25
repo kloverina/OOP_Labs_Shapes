@@ -94,6 +94,57 @@ namespace Interface
             Close();
         }
 
+
+        private void Button_Up_Click(object sender, EventArgs e)
+        {
+            if(ListBox1.SelectedIndex == -1)
+                MessageBox.Show("Не выбрано ни одной фигуры!", $"Ошибка", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else if (ListBox1.SelectedIndex == 0)
+                MessageBox.Show("Операция невозможна. Выбранная фигура и так является первой в списке.", $"Ошибка", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else
+            {
+               
+                var index = ListBox1.SelectedIndex;
+                var value = listBox1.Items[index];
+                object[] ar=new object[listBox1.Items.Count];
+                listBox1.Items.CopyTo(ar,0);
+               
+                ar[index] = ar[index-1];
+                ar[index-1] = value;
+                listBox1.Items.Clear();
+                listBox1.Items.AddRange(ar);
+
        
+            }
+
+
+        }
+
+        private void Button_Down_Click(object sender, EventArgs e)
+        {
+            if(ListBox1.SelectedIndex == -1)
+                MessageBox.Show("Не выбрано ни одной фигуры!", $"Ошибка", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else if (ListBox1.SelectedIndex == ListBox1.Items.Count)
+                MessageBox.Show("Операция невозможна. Выбранная фигура и так является последней в списке.", $"Ошибка", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else
+            {
+               
+                var index = ListBox1.SelectedIndex;
+                var value = listBox1.Items[index];
+                object[] ar=new object[listBox1.Items.Count];
+                listBox1.Items.CopyTo(ar,0);
+               
+                ar[index] = ar[index+1];
+                ar[index+1] = value;
+                listBox1.Items.Clear();
+                listBox1.Items.AddRange(ar);
+
+       
+            }
+        }
     }
 }
