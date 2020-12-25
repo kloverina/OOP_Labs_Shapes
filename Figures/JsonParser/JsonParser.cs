@@ -4,7 +4,8 @@ using System.IO;
 using Newtonsoft.Json.Linq;
 using OOP_labs.Shapes;
 
-namespace OOP_Labs.JsonParser
+
+namespace OOP.JsonParser
 {
     
     /// <summary>
@@ -14,7 +15,7 @@ namespace OOP_Labs.JsonParser
     /// <remarks>
     /// For correct serialization all figures from [IShape] must have a "toJson" method
     /// </remarks>
-    class JsonParser 
+    public class JsonParser 
     {
         // Extension for all files with saves data
         private const string Extension = ".json";
@@ -72,14 +73,13 @@ namespace OOP_Labs.JsonParser
         /// <exception cref="FileLoadException">Cannot read from file.</exception>
         public static List<IShape> Deserialize(string fileName, string folderPath)
         {
-            string json = "";
-            JObject jObject = new JObject();
+            JObject jObject;
             try
             {
                 string file = Path.Combine(folderPath, fileName + Extension);
                 if(!File.Exists(file))
                     throw new FileNotFoundException($"File {fileName} was not found!");
-                json = File.ReadAllText(file);
+                var json = File.ReadAllText(file);
                 jObject = JObject.Parse(json);
               
             }
@@ -87,6 +87,36 @@ namespace OOP_Labs.JsonParser
             {
                 throw new FileLoadException("Error! Cannot read from file!");
             }
+            return DeserializeFigures(jObject) ;
+        }
+
+        /// <summary>
+        /// Deserializes list of figures using a full path to file (path+name of the file)
+        /// </summary>
+        /// <param name="fullPath">Full path to json file with extension. </param>
+        public static List<IShape> Deserialize(string fullPath)
+        {
+            JObject jObject;
+            try
+            {
+                string file = fullPath;
+                if(!File.Exists(file))
+                    throw new FileNotFoundException("File was not found!");
+                var json = File.ReadAllText(file);
+                jObject = JObject.Parse(json);
+            }
+            catch
+            {
+                throw new FileLoadException("Error! Cannot read from file!");
+            }
+            return DeserializeFigures(jObject) ;
+        }
+        
+        /// <summary>
+        /// Converts type of figure and its properties from json to [IShape]
+        /// </summary>
+        private static List<IShape> DeserializeFigures(JObject jObject)
+        {
             List<IShape> allFigures = new List<IShape>();
             foreach (var jsonProperty in jObject.Properties())
             {

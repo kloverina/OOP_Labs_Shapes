@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Labs", "OOP_Labs\OOP_Labs.csproj", "{E3A98F83-4D3F-4A59-9A45-9A267F8456FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figures", "Figures\Figures.csproj", "{E3A98F83-4D3F-4A59-9A45-9A267F8456FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{7295BAD3-44EA-4799-A546-DDA57786945B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{E3A98F83-4D3F-4A59-9A45-9A267F8456FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3A98F83-4D3F-4A59-9A45-9A267F8456FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3A98F83-4D3F-4A59-9A45-9A267F8456FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7295BAD3-44EA-4799-A546-DDA57786945B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7295BAD3-44EA-4799-A546-DDA57786945B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7295BAD3-44EA-4799-A546-DDA57786945B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7295BAD3-44EA-4799-A546-DDA57786945B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

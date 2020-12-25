@@ -8,7 +8,7 @@
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>OOP</RootNamespace>
-        <AssemblyName>OOP_Labs</AssemblyName>
+        <AssemblyName>Figures</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -91,7 +91,6 @@
     </ItemGroup>
     <ItemGroup>
       <Content Include=".gitignore" />
-      <Content Include="JsonParser\check.json" />
       <Content Include="JsonParser\figures.json" />
     </ItemGroup>
     <ItemGroup>

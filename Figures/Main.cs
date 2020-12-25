@@ -3,8 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
+using OOP.JsonParser;
 using OOP_labs.Shapes;
-using OOP_Labs.JsonParser;
 
 namespace OOP_Labs
 {
@@ -20,14 +20,15 @@ namespace OOP_Labs
                 new Rectangle(8, 12)
             };
 
-            var json = new JsonParser.JsonParser();
-            var folder = "C:/Users/Кристина/RiderProjects/OOP_labs/OOP_Labs/JsonParser";
+            
+            var folder = "C:/Users/Кристина/RiderProjects/OOP_labs/Figures/JsonParser";
             
             //serializing list of figures to json file
-            JsonParser.JsonParser.Serialize(list, "figures", folder, false);
+            //JsonParser.Serialize(list, "figures", folder, false);
             
             //deserializing figures from json file
-            var checkDeserialize = JsonParser.JsonParser.Deserialize("figures", folder);
+            var checkDeserialize = JsonParser.Deserialize(
+                @"C:/Users/Кристина/RiderProjects/OOP_labs/Figures/JsonParser/figures.json");
             foreach (var figure in checkDeserialize)
             {
                 Console.WriteLine(figure.ToString());
